@@ -30,7 +30,7 @@ const SERVER_CONFIGS: MCPServerConfig[] = [
   {
     id: "library",
     name: "Library MCP Server",
-    url: process.env.LIBRARY_SERVER_URL || "http://localhost:5001"
+    url: process.env.LIBRARY_SERVER_URL || "http://observant-ambition.railway.internal:8080"
   },
   {
     id: "cafeteria",
