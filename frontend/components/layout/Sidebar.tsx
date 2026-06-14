@@ -322,35 +322,6 @@ export default function Sidebar() {
           )}
         </div>
 
-        {/* Custom API Key input */}
-        <div className="p-4 border-t border-border bg-slate-900/5 text-xs">
-          <div className="flex flex-col gap-1.5">
-            <label className="text-[10px] text-muted-foreground font-semibold uppercase tracking-wider">Custom Groq API Key</label>
-            <div className="relative">
-              <input
-                type="password"
-                value={customApiKey}
-                onChange={(e) => setCustomApiKey(e.target.value)}
-                placeholder="gsk_..."
-                className="w-full bg-secondary/40 border border-border rounded px-2.5 py-1.5 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary font-mono placeholder:text-muted-foreground/30"
-              />
-              {customApiKey && (
-                <button
-                  type="button"
-                  onClick={() => setCustomApiKey("")}
-                  className="absolute right-2.5 top-2.5 text-[10px] text-red-400 hover:text-red-300 font-semibold cursor-pointer"
-                  title="Clear API Key"
-                >
-                  Clear
-                </button>
-              )}
-            </div>
-            <p className="text-[9.5px] text-muted-foreground leading-tight">
-              Saves locally to your browser context. Leave blank to use shared key.
-            </p>
-          </div>
-        </div>
-
         {/* Health Status Indicator */}
         <StatusStrip />
       </aside>
