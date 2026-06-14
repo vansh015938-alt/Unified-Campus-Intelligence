@@ -1,0 +1,109 @@
+version: '3.8'
+
+services:
+  # Node/TS Library MCP Server (Port 5001)
+  library-server:
+    build:
+      context: ./mcp-servers/library-server
+      dockerfile: Dockerfile
+    container_name: campuspulse-library-server
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  # Python Cafeteria MCP Server (Port 5002)
+  cafeteria-server:
+    build:
+      context: ./mcp-servers/cafeteria-server
+      dockerfile: Dockerfile
+    container_name: campuspulse-cafeteria-server
+    ports:
+      - "5002:5002"
+    environment:
+      - PORT=5002
+      - HOST=0.0.0.0
+    restart: unless-stopped
+
+  # Node/TS Events MCP Server (Port 5003)
+  events-server:
+    build:
+      context: ./mcp-servers/events-server
+      dockerfile: Dockerfile
+    container_name: campuspulse-events-server
+    ports:
+      - "5003:5003"
+    environment:
+      - PORT=5003
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  # Python Academics MCP Server (Port 5004)
+  academics-server:
+    build:
+      context: ./mcp-servers/academics-server
+      dockerfile: Dockerfile
+    container_name: campuspulse-academics-server
+    ports:
+      - "5004:5004"
+    environment:
+      - PORT=5004
+      - HOST=0.0.0.0
+    restart: unless-stopped
+
+  # Node/TS Notices & Transport MCP Server (Port 5005)
+  notices-transport-server:
+    build:
+      context: ./mcp-servers/notices-transport-server
+      dockerfile: Dockerfile
+    container_name: campuspulse-notices-transport-server
+    ports:
+      - "5005:5005"
+    environment:
+      - PORT=5005
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  # Node/TS Orchestrator Service (Port 4000)
+  orchestrator:
+    build:
+      context: ./orchestrator
+      dockerfile: Dockerfile
+    container_name: campuspulse-orchestrator
+    ports:
+      - "4000:4000"
+    depends_on:
+      - library-server
+      - cafeteria-server
+      - events-server
+      - academics-server
+      - notices-transport-server
+    environment:
+      - PORT=4000
+      - NODE_ENV=production
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - LIBRARY_SERVER_URL=http://library-server:5001
+      - CAFETERIA_SERVER_URL=http://cafeteria-server:5002
+      - EVENTS_SERVER_URL=http://events-server:5003
+      - ACADEMICS_SERVER_URL=http://academics-server:5004
+      - NOTICES_TRANSPORT_SERVER_URL=http://notices-transport-server:5005
+    restart: unless-stopped
+
+  # Next.js Frontend (Port 3000)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: campuspulse-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - orchestrator
+    environment:
+      - PORT=3000
+      - NEXT_PUBLIC_ORCHESTRATOR_URL=http://orchestrator:4000
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:-super-secret-nextauth-key-value-change-me}
+      - NEXTAUTH_URL=http://localhost:3000
+    restart: unless-stopped

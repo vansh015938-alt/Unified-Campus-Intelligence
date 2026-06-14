@@ -1,0 +1,76 @@
+{
+  "academic_calendar": [
+    { "event": "Fall Semester Registration", "start_date": "2026-08-17", "end_date": "2026-08-21", "type": "academic" },
+    { "event": "First Day of Classes (Fall)", "start_date": "2026-08-24", "end_date": "2026-08-24", "type": "academic" },
+    { "event": "Labor Day (Holiday)", "start_date": "2026-09-07", "end_date": "2026-09-07", "type": "holiday" },
+    { "event": "Mid-Semester Examinations", "start_date": "2026-10-12", "end_date": "2026-10-17", "type": "exam" },
+    { "event": "Thanksgiving Break (Holidays)", "start_date": "2026-11-25", "end_date": "2026-11-29", "type": "holiday" },
+    { "event": "Last Day of Fall Classes", "start_date": "2026-12-04", "end_date": "2026-12-04", "type": "academic" },
+    { "event": "End-Semester Final Examinations", "start_date": "2026-12-07", "end_date": "2026-12-18", "type": "exam" },
+    { "event": "Winter Vacation", "start_date": "2026-12-19", "end_date": "2027-01-11", "type": "holiday" }
+  ],
+  "exam_schedule": [
+    { "course_code": "CS101", "course_title": "Introduction to Computer Science", "date": "2026-12-07", "time": "09:00 AM - 12:00 PM", "venue": "Sports Stadium Hall A" },
+    { "course_code": "EE201", "course_title": "Analog Electronics", "date": "2026-12-09", "time": "01:30 PM - 04:30 PM", "venue": "Block-C Auditorium" },
+    { "course_code": "CS202", "course_title": "Data Structures and Algorithms", "date": "2026-12-11", "time": "09:00 AM - 12:00 PM", "venue": "Sports Stadium Hall B" },
+    { "course_code": "HU102", "course_title": "Introduction to Philosophy", "date": "2026-12-14", "time": "01:30 PM - 04:30 PM", "venue": "Humanities Block Seminar Hall" },
+    { "course_code": "CS304", "course_title": "Operating Systems", "date": "2026-12-16", "time": "09:00 AM - 12:00 PM", "venue": "Sports Stadium Hall A" }
+  ],
+  "courses": {
+    "CS101": {
+      "title": "Introduction to Computer Science",
+      "credits": 4,
+      "prerequisites": "None",
+      "instructor": "Dr. Sarah Miller (s.miller@campuspulse.edu)",
+      "syllabus_summary": "Introduction to computation, algorithms, variables, control flow, loops, functions, lists, basic searching/sorting, and object-oriented programming principles using Python."
+    },
+    "CS202": {
+      "title": "Data Structures and Algorithms",
+      "credits": 4,
+      "prerequisites": "CS101",
+      "instructor": "Dr. Thomas Cormen (t.cormen@campuspulse.edu)",
+      "syllabus_summary": "Study of arrays, linked lists, stacks, queues, trees, binary search trees, AVL trees, graphs, sorting algorithms, searching, hashing, and space/time complexity analysis."
+    },
+    "EE201": {
+      "title": "Analog Electronics",
+      "credits": 3,
+      "prerequisites": "AP Physics II",
+      "instructor": "Prof. Adel Sedra (a.sedra@campuspulse.edu)",
+      "syllabus_summary": "Semiconductor diodes, bipolar junction transistors (BJTs), field effect transistors (FETs), biasing, small-signal models, single-stage amplifiers, operational amplifiers (op-amps), and frequency response."
+    },
+    "CS304": {
+      "title": "Operating Systems",
+      "credits": 4,
+      "prerequisites": "CS202 & Computer Architecture",
+      "instructor": "Dr. Abraham Silberschatz (a.silberschatz@campuspulse.edu)",
+      "syllabus_summary": "Operating system design, process management, CPU scheduling, threads, synchronization, deadlocks, memory management, virtual memory, file systems, and input/output systems."
+    },
+    "HU102": {
+      "title": "Introduction to Philosophy",
+      "credits": 3,
+      "prerequisites": "None",
+      "instructor": "Dr. Robin Waterfield (r.waterfield@campuspulse.edu)",
+      "syllabus_summary": "Historical introduction to Western philosophical thought, covering Epistemology (knowledge), Metaphysics (existence), Ethics (morality), and Philosophy of Mind."
+    }
+  },
+  "departments": {
+    "Computer Science": {
+      "office": "Block B, Room 204",
+      "phone": "+1 (555) 019-8833",
+      "email": "cs.dept@campuspulse.edu",
+      "hod": "Dr. Charles Leiserson"
+    },
+    "Electrical Engineering": {
+      "office": "Block E, Room 101",
+      "phone": "+1 (555) 019-8844",
+      "email": "ee.dept@campuspulse.edu",
+      "hod": "Prof. Anant Agarwal"
+    },
+    "Humanities": {
+      "office": "Humanities Block, Room 12",
+      "phone": "+1 (555) 019-8855",
+      "email": "humanities.dept@campuspulse.edu",
+      "hod": "Dr. Robin Waterfield"
+    }
+  }
+}

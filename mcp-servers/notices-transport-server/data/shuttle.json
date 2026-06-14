@@ -1,0 +1,41 @@
+{
+  "shuttle_schedules": [
+    {
+      "route_id": "ROUTE-A",
+      "name": "North Campus Loop",
+      "stops": ["Main Gate", "CS Block", "Central Library", "Hostel Complex 1-4", "Sports Arena"],
+      "timings": {
+        "weekdays": "Every 15 minutes, from 07:00 AM to 09:30 PM",
+        "weekends": "Every 30 minutes, from 08:30 AM to 08:00 PM"
+      },
+      "driver_contact": "+1 (555) 019-9001 (Officer John)"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "name": "Metro Station Shuttle",
+      "stops": ["Central Library", "Main Gate", "Campus South Gate", "City Central Metro Station"],
+      "timings": {
+        "weekdays": "Every 20 minutes (Peak hours: 07:30 AM-10:00 AM & 04:30 PM-07:30 PM), otherwise hourly",
+        "weekends": "Hourly from 09:00 AM to 06:00 PM"
+      },
+      "driver_contact": "+1 (555) 019-9002 (Officer Mike)"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "name": "Science & Tech Express",
+      "stops": ["Hostel Complex 5-8", "Engineering Workshop", "VLSI Research Block", "Faculty Housing"],
+      "timings": {
+        "weekdays": "Every 15 minutes, from 08:00 AM to 06:00 PM",
+        "weekends": "No Service"
+      },
+      "driver_contact": "+1 (555) 019-9003 (Officer Dave)"
+    }
+  ],
+  "building_directions": {
+    "Central Library": "Located at the heart of the campus, directly opposite the Admin Block. Walk past the central fountain and enter through the glass double doors.",
+    "CS Block": "Located in Block B, next to the Science Department. Take the walkway behind the Central Library and look for the yellow brick building on your left.",
+    "VLSI Research Block": "Located in Block E. Head south from the main courtyard, pass the Engineering Workshops, and it's the 4-story silver-cladded research building.",
+    "Main Seminar Hall": "Located on the 2nd floor of Block A (Admin Block). Take the central elevators up from the reception desk.",
+    "Sports Stadium": "Located on the far eastern boundary of the campus. Follow the main perimeter road east, past the hostel complex."
+  }
+}

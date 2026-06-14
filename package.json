@@ -1,0 +1,20 @@
+{
+  "name": "campuspulse-monorepo",
+  "version": "1.0.0",
+  "description": "Unified Campus Intelligence Dashboard with AI Assistant powered by MCP",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm run install:frontend && npm run install:orchestrator && npm run install:library && npm run install:events && npm run install:notices",
+    "install:frontend": "npm install --prefix frontend",
+    "install:orchestrator": "npm install --prefix orchestrator",
+    "install:library": "npm install --prefix mcp-servers/library-server",
+    "install:events": "npm install --prefix mcp-servers/events-server",
+    "install:notices": "npm install --prefix mcp-servers/notices-transport-server",
+    "dev": "npx concurrently -n \"frontend,orchestrator,lib-mcp,cafe-mcp,eve-mcp,acad-mcp,note-mcp\" -c \"bgBlue,bgGreen,bgYellow,bgMagenta,bgCyan,bgRed,bgWhite\" \"npm run dev --prefix frontend\" \"npm run dev --prefix orchestrator\" \"npm run dev --prefix mcp-servers/library-server\" \"mcp-servers\\\\cafeteria-server\\\\.venv\\\\Scripts\\\\python mcp-servers/cafeteria-server/main.py\" \"npm run dev --prefix mcp-servers/events-server\" \"mcp-servers\\\\academics-server\\\\.venv\\\\Scripts\\\\python mcp-servers/academics-server/main.py\" \"npm run dev --prefix mcp-servers/notices-transport-server\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix orchestrator && npm run build --prefix mcp-servers/library-server && npm run build --prefix mcp-servers/events-server && npm run build --prefix mcp-servers/notices-transport-server",
+    "start": "npx concurrently -n \"frontend,orchestrator,lib-mcp,cafe-mcp,eve-mcp,acad-mcp,note-mcp\" -c \"bgBlue,bgGreen,bgYellow,bgMagenta,bgCyan,bgRed,bgWhite\" \"npm run start --prefix frontend\" \"npm run start --prefix orchestrator\" \"npm run start --prefix mcp-servers/library-server\" \"mcp-servers\\\\cafeteria-server\\\\.venv\\\\Scripts\\\\python mcp-servers/cafeteria-server/main.py\" \"npm run start --prefix mcp-servers/events-server\" \"mcp-servers\\\\academics-server\\\\.venv\\\\Scripts\\\\python mcp-servers/academics-server/main.py\" \"npm run start --prefix mcp-servers/notices-transport-server\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

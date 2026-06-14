@@ -1,0 +1,42 @@
+[
+  {
+    "id": "NOT-001",
+    "title": "Fall Semester Fee Payment Deadline",
+    "content": "All students must clear their tuition and hostel fees for the upcoming Fall Semester by August 15, 2026. A late fee of $100 will apply after this date. Installment requests must be submitted to the accounts office by July 31.",
+    "category": "fees",
+    "date": "2026-06-12",
+    "importance": "high"
+  },
+  {
+    "id": "NOT-002",
+    "title": "Supplementary/Re-evaluation Results Out",
+    "content": "Results for the Spring 2026 Supplementary examinations and paper re-evaluations have been declared. Grade sheets can be downloaded from the academic portal.",
+    "category": "exams",
+    "date": "2026-06-10",
+    "importance": "medium"
+  },
+  {
+    "id": "NOT-003",
+    "title": "Summer Maintenance Closure of Main Gymnasium",
+    "content": "The Main Gymnasium will remain closed for annual flooring maintenance and equipment servicing from June 20 to June 28, 2026. The indoor swimming pool will remain open during regular hours.",
+    "category": "general",
+    "date": "2026-06-08",
+    "importance": "low"
+  },
+  {
+    "id": "NOT-004",
+    "title": "Holiday Announcement: Independence Day",
+    "content": "The institute will remain closed on Monday, July 6, 2026, in observance of Independence Day. No classes will run. Library study rooms will be open.",
+    "category": "holidays",
+    "date": "2026-06-05",
+    "importance": "medium"
+  },
+  {
+    "id": "NOT-005",
+    "title": "Hostel Room Allotment for Third-Year Students",
+    "content": "Room allotment list for Hostels 3 & 4 has been published. Selected students must complete room registration and security verification at the Warden's office before June 25.",
+    "category": "general",
+    "date": "2026-06-14",
+    "importance": "high"
+  }
+]

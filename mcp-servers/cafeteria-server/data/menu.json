@@ -1,0 +1,283 @@
+{
+  "days": {
+    "Monday": {
+      "breakfast": {
+        "timing": "07:30 AM - 09:30 AM",
+        "items": [
+          { "name": "Scrambled Eggs with Toast", "type": "non-veg", "allergens": ["eggs", "gluten"] },
+          { "name": "Oatmeal with Honey & Bananas", "type": "veg", "allergens": [] },
+          { "name": "Aloo Paratha with Curd", "type": "veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Fresh Orange Juice", "type": "veg", "allergens": [] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:00 PM - 02:30 PM",
+        "items": [
+          { "name": "Grilled Chicken Breast with Rice", "type": "non-veg", "allergens": [] },
+          { "name": "Paneer Butter Masala", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Dal Tadka", "type": "veg", "allergens": [] },
+          { "name": "Jeera Rice & Butter Roti", "type": "veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Garden Salad", "type": "veg", "allergens": [] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Vegetable Samosa (2 pcs)", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Grilled Cheese Sandwich", "type": "veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Masala Chai", "type": "veg", "allergens": ["dairy"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Chicken Biryani with Raita", "type": "non-veg", "allergens": ["dairy"] },
+          { "name": "Veg Kolhapuri", "type": "veg", "allergens": [] },
+          { "name": "Yellow Dal Fry", "type": "veg", "allergens": [] },
+          { "name": "Tandoori Roti", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Gulab Jamun", "type": "veg", "allergens": ["gluten", "dairy"] }
+        ]
+      }
+    },
+    "Tuesday": {
+      "breakfast": {
+        "timing": "07:30 AM - 09:30 AM",
+        "items": [
+          { "name": "Pancakes with Maple Syrup", "type": "veg", "allergens": ["gluten", "dairy", "eggs"] },
+          { "name": "Idli Sambar with Coconut Chutney", "type": "veg", "allergens": ["mustard"] },
+          { "name": "Boiled Eggs (2 pcs)", "type": "non-veg", "allergens": ["eggs"] },
+          { "name": "Apple Cider Juice", "type": "veg", "allergens": [] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:00 PM - 02:30 PM",
+        "items": [
+          { "name": "Fish Curry with Steamed Rice", "type": "non-veg", "allergens": ["fish"] },
+          { "name": "Aloo Gobi Matar", "type": "veg", "allergens": [] },
+          { "name": "Rajma Masala", "type": "veg", "allergens": [] },
+          { "name": "Naan Bread", "type": "veg", "allergens": ["gluten", "dairy"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "French Fries", "type": "veg", "allergens": [] },
+          { "name": "Paneer Pakora", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Filter Coffee", "type": "veg", "allergens": ["dairy"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Egg Curry", "type": "non-veg", "allergens": ["eggs"] },
+          { "name": "Mushroom Masala", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Chana Dal", "type": "veg", "allergens": [] },
+          { "name": "Phulka Roti", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Kheer", "type": "veg", "allergens": ["dairy", "nuts"] }
+        ]
+      }
+    },
+    "Wednesday": {
+      "breakfast": {
+        "timing": "07:30 AM - 09:30 AM",
+        "items": [
+          { "name": "Masala Dosa with Chutney & Sambar", "type": "veg", "allergens": ["mustard"] },
+          { "name": "Cornflakes with Cold Milk", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Omelette with Toast", "type": "non-veg", "allergens": ["eggs", "gluten"] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:00 PM - 02:30 PM",
+        "items": [
+          { "name": "Mutton Rogan Josh", "type": "non-veg", "allergens": [] },
+          { "name": "Kadhai Paneer", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Mix Vegetable Fry", "type": "veg", "allergens": [] },
+          { "name": "Basmati Rice & Laccha Paratha", "type": "veg", "allergens": ["gluten", "dairy"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Bhel Puri", "type": "veg", "allergens": ["gluten", "peanuts"] },
+          { "name": "Chicken Nuggets", "type": "non-veg", "allergens": ["gluten", "eggs"] },
+          { "name": "Green Tea", "type": "veg", "allergens": [] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Butter Chicken with Butter Naan", "type": "non-veg", "allergens": ["dairy", "gluten"] },
+          { "name": "Malai Kofta", "type": "veg", "allergens": ["dairy", "nuts", "gluten"] },
+          { "name": "Dal Makhani", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Jeera Rice", "type": "veg", "allergens": [] },
+          { "name": "Rasgulla", "type": "veg", "allergens": ["dairy"] }
+        ]
+      }
+    },
+    "Thursday": {
+      "breakfast": {
+        "timing": "07:30 AM - 09:30 AM",
+        "items": [
+          { "name": "Poha with Sev", "type": "veg", "allergens": ["peanuts"] },
+          { "name": "French Toast", "type": "non-veg", "allergens": ["gluten", "eggs", "dairy"] },
+          { "name": "Fruit Bowl", "type": "veg", "allergens": [] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:00 PM - 02:30 PM",
+        "items": [
+          { "name": "Chicken Kadhai", "type": "non-veg", "allergens": [] },
+          { "name": "Palak Paneer", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Aloo Methi", "type": "veg", "allergens": [] },
+          { "name": "Steamed Rice & Chapati", "type": "veg", "allergens": ["gluten"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Aloo Tikki Chat", "type": "veg", "allergens": ["dairy", "gluten"] },
+          { "name": "Veg Spring Rolls", "type": "veg", "allergens": ["gluten"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Fish Fry with Salad", "type": "non-veg", "allergens": ["fish", "gluten"] },
+          { "name": "Baingan Bharta", "type": "veg", "allergens": [] },
+          { "name": "Moong Dal Tadka", "type": "veg", "allergens": [] },
+          { "name": "Roti", "type": "veg", "allergens": ["gluten"] }
+        ]
+      }
+    },
+    "Friday": {
+      "breakfast": {
+        "timing": "07:30 AM - 09:30 AM",
+        "items": [
+          { "name": "Vada Pav (2 pcs)", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Muesli with Yogurt", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Fried Eggs with Toast", "type": "non-veg", "allergens": ["eggs", "gluten"] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:00 PM - 02:30 PM",
+        "items": [
+          { "name": "Chicken Do Pyaza", "type": "non-veg", "allergens": [] },
+          { "name": "Shahi Paneer", "type": "veg", "allergens": ["dairy", "nuts"] },
+          { "name": "Bhindi Masala", "type": "veg", "allergens": [] },
+          { "name": "Pulao Rice & Tandoori Roti", "type": "veg", "allergens": ["gluten", "dairy"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Samosa Pav", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Chicken Tikka Skewer", "type": "non-veg", "allergens": ["dairy"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Egg Biryani", "type": "non-veg", "allergens": ["eggs", "dairy"] },
+          { "name": "Mix Vegetable Kurma", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Masoor Dal", "type": "veg", "allergens": [] },
+          { "name": "Phulka", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Ice Cream (Vanilla)", "type": "veg", "allergens": ["dairy"] }
+        ]
+      }
+    },
+    "Saturday": {
+      "breakfast": {
+        "timing": "08:00 AM - 10:00 AM",
+        "items": [
+          { "name": "Chole Bhature", "type": "veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Veg Sandwich", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Mango Lassi", "type": "veg", "allergens": ["dairy"] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:30 PM - 03:00 PM",
+        "items": [
+          { "name": "Chicken Curry with Rice", "type": "non-veg", "allergens": [] },
+          { "name": "Paneer Tikka Masala", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Yellow Dal Double Tadka", "type": "veg", "allergens": [] },
+          { "name": "Butter Naan", "type": "veg", "allergens": ["gluten", "dairy"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Gobi Manchurian", "type": "veg", "allergens": ["gluten", "soy"] },
+          { "name": "Hot Dog", "type": "non-veg", "allergens": ["gluten"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Chicken Shawarma Plate", "type": "non-veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Mushroom Kadhai", "type": "veg", "allergens": [] },
+          { "name": "Plain Rice & Chapati", "type": "veg", "allergens": ["gluten"] }
+        ]
+      }
+    },
+    "Sunday": {
+      "breakfast": {
+        "timing": "08:00 AM - 10:00 AM",
+        "items": [
+          { "name": "Waffles with Berry Compote", "type": "veg", "allergens": ["gluten", "dairy", "eggs"] },
+          { "name": "Aloo Puri", "type": "veg", "allergens": ["gluten"] },
+          { "name": "Hot Chocolate", "type": "veg", "allergens": ["dairy"] }
+        ]
+      },
+      "lunch": {
+        "timing": "12:30 PM - 03:00 PM",
+        "items": [
+          { "name": "Special Mutton Biryani", "type": "non-veg", "allergens": ["dairy"] },
+          { "name": "Special Paneer Biryani", "type": "veg", "allergens": ["dairy"] },
+          { "name": "Mirchi Ka Salan", "type": "veg", "allergens": ["peanuts", "sesame"] },
+          { "name": "Onion Raita", "type": "veg", "allergens": ["dairy"] }
+        ]
+      },
+      "snacks": {
+        "timing": "04:30 PM - 06:00 PM",
+        "items": [
+          { "name": "Pav Bhaji", "type": "veg", "allergens": ["gluten", "dairy"] },
+          { "name": "Dhokla", "type": "veg", "allergens": ["mustard"] }
+        ]
+      },
+      "dinner": {
+        "timing": "07:30 PM - 09:30 PM",
+        "items": [
+          { "name": "Egg Fried Rice with Veg Manchurian", "type": "non-veg", "allergens": ["eggs", "gluten", "soy"] },
+          { "name": "Veg Hakka Noodles", "type": "veg", "allergens": ["gluten", "soy"] },
+          { "name": "Spring Rolls", "type": "veg", "allergens": ["gluten"] }
+        ]
+      }
+    }
+  },
+  "specials": [
+    { "name": "Paneer Tikka Roll", "price": "$3.50", "discount": "15% off today" },
+    { "name": "Chicken Club Sandwich", "price": "$4.00", "discount": "Free Masala Chai with purchase" },
+    { "name": "Mango Milkshake", "price": "$2.00", "discount": "Buy 1 Get 1 Free (Snack hours only)" }
+  ],
+  "timings": {
+    "breakfast": "07:30 AM - 09:30 AM (Sat/Sun: 08:00 AM - 10:00 AM)",
+    "lunch": "12:00 PM - 02:30 PM (Sat/Sun: 12:30 PM - 03:00 PM)",
+    "snacks": "04:30 PM - 06:00 PM",
+    "dinner": "07:30 PM - 09:30 PM"
+  },
+  "item_nutrition": {
+    "Scrambled Eggs with Toast": { "calories": 320, "protein": "16g", "carbs": "24g", "fat": "18g", "allergens": ["eggs", "gluten"] },
+    "Oatmeal with Honey & Bananas": { "calories": 250, "protein": "6g", "carbs": "45g", "fat": "4g", "allergens": [] },
+    "Aloo Paratha with Curd": { "calories": 380, "protein": "8g", "carbs": "52g", "fat": "15g", "allergens": ["gluten", "dairy"] },
+    "Paneer Butter Masala": { "calories": 420, "protein": "14g", "carbs": "12g", "fat": "36g", "allergens": ["dairy"] },
+    "Grilled Chicken Breast with Rice": { "calories": 450, "protein": "38g", "carbs": "44g", "fat": "8g", "allergens": [] },
+    "Chicken Biryani with Raita": { "calories": 620, "protein": "28g", "carbs": "70g", "fat": "22g", "allergens": ["dairy"] },
+    "Vegetable Samosa (2 pcs)": { "calories": 300, "protein": "4g", "carbs": "36g", "fat": "16g", "allergens": ["gluten"] },
+    "Grilled Cheese Sandwich": { "calories": 350, "protein": "12g", "carbs": "30g", "fat": "20g", "allergens": ["gluten", "dairy"] },
+    "Butter Chicken with Butter Naan": { "calories": 750, "protein": "34g", "carbs": "65g", "fat": "40g", "allergens": ["dairy", "gluten"] },
+    "Masala Dosa with Chutney & Sambar": { "calories": 310, "protein": "6g", "carbs": "48g", "fat": "10g", "allergens": ["mustard"] },
+    "Chole Bhature": { "calories": 650, "protein": "15g", "carbs": "80g", "fat": "30g", "allergens": ["gluten", "dairy"] },
+    "Special Mutton Biryani": { "calories": 720, "protein": "35g", "carbs": "75g", "fat": "28g", "allergens": ["dairy"] },
+    "Special Paneer Biryani": { "calories": 580, "protein": "20g", "carbs": "72g", "fat": "24g", "allergens": ["dairy"] }
+  }
+}

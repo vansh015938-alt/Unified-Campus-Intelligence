@@ -1,0 +1,562 @@
+[
+  {
+    "id": "978-0132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "subject": "Computer Science",
+    "available_copies": 3,
+    "total_copies": 5,
+    "location": "Shelf CS-01",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-25"
+      },
+      {
+        "student_id": "STU99999",
+        "due_date": "2026-06-18"
+      }
+    ]
+  },
+  {
+    "id": "978-0135957059",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "subject": "Computer Science",
+    "available_copies": 1,
+    "total_copies": 3,
+    "location": "Shelf CS-01",
+    "borrowings": [
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-06-22"
+      },
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-29"
+      }
+    ]
+  },
+  {
+    "id": "978-0262033848",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson",
+    "subject": "Computer Science",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf CS-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0131103628",
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan, Dennis M. Ritchie",
+    "subject": "Computer Science",
+    "available_copies": 0,
+    "total_copies": 2,
+    "location": "Shelf CS-02",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-15"
+      },
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-06-20"
+      }
+    ]
+  },
+  {
+    "id": "978-0321125217",
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "subject": "Computer Science",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf CS-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0134494166",
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "subject": "Computer Science",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf CS-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0137081073",
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "subject": "Computer Science",
+    "available_copies": 1,
+    "total_copies": 2,
+    "location": "Shelf CS-01",
+    "borrowings": [
+      {
+        "student_id": "STU88888",
+        "due_date": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "id": "978-0596007126",
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman, Elisabeth Robson",
+    "subject": "Computer Science",
+    "available_copies": 4,
+    "total_copies": 5,
+    "location": "Shelf CS-03",
+    "borrowings": [
+      {
+        "student_id": "STU34567",
+        "due_date": "2026-06-19"
+      }
+    ]
+  },
+  {
+    "id": "978-0131479418",
+    "title": "Compilers: Principles, Techniques, and Tools",
+    "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+    "subject": "Computer Science",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf CS-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-1449331818",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "subject": "Computer Science",
+    "available_copies": 0,
+    "total_copies": 4,
+    "location": "Shelf CS-05",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-30"
+      },
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-07-02"
+      },
+      {
+        "student_id": "STU44444",
+        "due_date": "2026-06-28"
+      },
+      {
+        "student_id": "STU55555",
+        "due_date": "2026-06-25"
+      }
+    ]
+  },
+  {
+    "id": "978-0132145374",
+    "title": "Computer Networking: A Top-Down Approach",
+    "author": "James F. Kurose, Keith W. Ross",
+    "subject": "Computer Science",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf CS-06",
+    "borrowings": []
+  },
+  {
+    "id": "978-1118532805",
+    "title": "Operating System Concepts",
+    "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+    "subject": "Computer Science",
+    "available_copies": 5,
+    "total_copies": 5,
+    "location": "Shelf CS-06",
+    "borrowings": []
+  },
+  {
+    "id": "978-0134685991",
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "subject": "Computer Science",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf CS-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0596517748",
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "subject": "Computer Science",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf CS-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-0133591620",
+    "title": "Microelectronic Circuits",
+    "author": "Adel S. Sedra, Kenneth C. Smith",
+    "subject": "Electronics",
+    "available_copies": 6,
+    "total_copies": 6,
+    "location": "Shelf EE-01",
+    "borrowings": []
+  },
+  {
+    "id": "978-0131011403",
+    "title": "Foundations of Analog and Digital Electronic Circuits",
+    "author": "Anant Agarwal, Jeffrey H. Lang",
+    "subject": "Electronics",
+    "available_copies": 1,
+    "total_copies": 3,
+    "location": "Shelf EE-01",
+    "borrowings": [
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-06-24"
+      },
+      {
+        "student_id": "STU11111",
+        "due_date": "2026-06-17"
+      }
+    ]
+  },
+  {
+    "id": "978-0132543033",
+    "title": "Digital Design: With an Introduction to the Verilog HDL",
+    "author": "M. Morris Mano, Michael D. Ciletti",
+    "subject": "Electronics",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf EE-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0073380452",
+    "title": "Fundamentals of Electric Circuits",
+    "author": "Charles K. Alexander, Matthew N. O. Sadiku",
+    "subject": "Electronics",
+    "available_copies": 3,
+    "total_copies": 4,
+    "location": "Shelf EE-02",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-07-05"
+      }
+    ]
+  },
+  {
+    "id": "978-0132197076",
+    "title": "Signals and Systems",
+    "author": "Alan V. Oppenheim, Alan S. Willsky",
+    "subject": "Electronics",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf EE-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0470697559",
+    "title": "Introduction to Electrodynamics",
+    "author": "David J. Griffiths",
+    "subject": "Electronics",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf EE-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-0072873566",
+    "title": "Semiconductor Device Fundamentals",
+    "author": "Robert F. Pierret",
+    "subject": "Electronics",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf EE-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0471980827",
+    "title": "Digital Signal Processing",
+    "author": "John G. Proakis, Dimitris G. Manolakis",
+    "subject": "Electronics",
+    "available_copies": 1,
+    "total_copies": 2,
+    "location": "Shelf EE-04",
+    "borrowings": [
+      {
+        "student_id": "STU22222",
+        "due_date": "2026-06-22"
+      }
+    ]
+  },
+  {
+    "id": "978-0199535729",
+    "title": "The Republic",
+    "author": "Plato (Translated by Robin Waterfield)",
+    "subject": "Humanities",
+    "available_copies": 5,
+    "total_copies": 5,
+    "location": "Shelf HU-01",
+    "borrowings": []
+  },
+  {
+    "id": "978-0140449198",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "subject": "Humanities",
+    "available_copies": 2,
+    "total_copies": 4,
+    "location": "Shelf HU-01",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-20"
+      },
+      {
+        "student_id": "STU33333",
+        "due_date": "2026-06-19"
+      }
+    ]
+  },
+  {
+    "id": "978-0140449136",
+    "title": "The Odyssey",
+    "author": "Homer (Translated by E.V. Rieu)",
+    "subject": "Humanities",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf HU-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0307277671",
+    "title": "The History of the Decline and Fall of the Roman Empire",
+    "author": "Edward Gibbon",
+    "subject": "Humanities",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf HU-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0199535569",
+    "title": "On Liberty and Other Essays",
+    "author": "John Stuart Mill",
+    "subject": "Humanities",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf HU-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0140441031",
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "subject": "Humanities",
+    "available_copies": 1,
+    "total_copies": 3,
+    "location": "Shelf HU-01",
+    "borrowings": [
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-06-21"
+      },
+      {
+        "student_id": "STU77777",
+        "due_date": "2026-06-18"
+      }
+    ]
+  },
+  {
+    "id": "978-0060850524",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "subject": "Fiction",
+    "available_copies": 6,
+    "total_copies": 6,
+    "location": "Shelf FI-01",
+    "borrowings": []
+  },
+  {
+    "id": "978-0451524935",
+    "title": "1984",
+    "author": "George Orwell",
+    "subject": "Fiction",
+    "available_copies": 4,
+    "total_copies": 6,
+    "location": "Shelf FI-01",
+    "borrowings": [
+      {
+        "student_id": "STU12345",
+        "due_date": "2026-06-25"
+      },
+      {
+        "student_id": "STU88888",
+        "due_date": "2026-06-14"
+      }
+    ]
+  },
+  {
+    "id": "978-0743273565",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "subject": "Fiction",
+    "available_copies": 2,
+    "total_copies": 3,
+    "location": "Shelf FI-02",
+    "borrowings": [
+      {
+        "student_id": "STU67890",
+        "due_date": "2026-06-27"
+      }
+    ]
+  },
+  {
+    "id": "978-0446310789",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "subject": "Fiction",
+    "available_copies": 5,
+    "total_copies": 5,
+    "location": "Shelf FI-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0618640157",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "subject": "Fiction",
+    "available_copies": 3,
+    "total_copies": 4,
+    "location": "Shelf FI-03",
+    "borrowings": [
+      {
+        "student_id": "STU11111",
+        "due_date": "2026-06-23"
+      }
+    ]
+  },
+  {
+    "id": "978-0547928227",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "subject": "Fiction",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf FI-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0345391803",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "subject": "Fiction",
+    "available_copies": 5,
+    "total_copies": 5,
+    "location": "Shelf FI-03",
+    "borrowings": []
+  },
+  {
+    "id": "978-0062315007",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "subject": "Fiction",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf FI-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-0143039433",
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "subject": "Fiction",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf FI-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-0486284736",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "subject": "Fiction",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf FI-05",
+    "borrowings": []
+  },
+  {
+    "id": "978-0141439518",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "subject": "Fiction",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf FI-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0141439587",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "subject": "Fiction",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf FI-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0141439600",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "subject": "Fiction",
+    "available_copies": 2,
+    "total_copies": 2,
+    "location": "Shelf FI-02",
+    "borrowings": []
+  },
+  {
+    "id": "978-0142437247",
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "subject": "Fiction",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf FI-05",
+    "borrowings": []
+  },
+  {
+    "id": "978-0142000670",
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "subject": "Fiction",
+    "available_copies": 5,
+    "total_copies": 5,
+    "location": "Shelf FI-04",
+    "borrowings": []
+  },
+  {
+    "id": "978-0140449266",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "subject": "Fiction",
+    "available_copies": 3,
+    "total_copies": 3,
+    "location": "Shelf FI-05",
+    "borrowings": []
+  },
+  {
+    "id": "978-0679720201",
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "subject": "Fiction",
+    "available_copies": 4,
+    "total_copies": 4,
+    "location": "Shelf FI-05",
+    "borrowings": []
+  }
+]

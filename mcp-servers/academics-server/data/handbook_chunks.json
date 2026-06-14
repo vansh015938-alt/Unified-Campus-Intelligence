@@ -1,0 +1,98 @@
+[
+  {
+    "id": "HB-SEC-1.1",
+    "title": "Attendance Requirement Policy",
+    "page": 12,
+    "content": "All undergraduate students are required to maintain a minimum of 75% attendance in each registered course to be eligible to sit for the end-semester examinations. Medical leave requests, backed by authorized hospital certificates, must be submitted within 3 working days of returning to campus and can provide a relaxation down to a hard limit of 65% attendance."
+  },
+  {
+    "id": "HB-SEC-1.2",
+    "title": "Attendance Shortage Consequences",
+    "page": 13,
+    "content": "Students failing to meet the attendance requirements (75% standard or 65% with approved medical leave) in any course will be awarded an 'F-Attendance' (FA) grade. An FA grade requires the student to re-register for the course in a subsequent semester or during summer school, paying full registration fees."
+  },
+  {
+    "id": "HB-SEC-2.1",
+    "title": "Grading System Scheme",
+    "page": 16,
+    "content": "The institute operates on a 10-point letter grading scale. Grades are assigned based on relative performance in classes with more than 30 students. The grades are: A+ (10), A (9), B+ (8), B (7), C+ (6), C (5), D (4, passing grade), and F (0, fail). Cumulative Grade Point Average (CGPA) is calculated at the end of each semester."
+  },
+  {
+    "id": "HB-SEC-2.2",
+    "title": "Academic Probation Regulations",
+    "page": 18,
+    "content": "Any student whose Semester Grade Point Average (SGPA) falls below 5.0 or whose overall CGPA falls below 5.5 at the end of any academic year will be placed on Academic Probation. Students on probation are restricted to a maximum of 16 credits in the subsequent semester and must attend weekly advising sessions."
+  },
+  {
+    "id": "HB-SEC-3.1",
+    "title": "Re-evaluation & Grading Review Process",
+    "page": 22,
+    "content": "If a student believes a grading error has occurred in a final examination, they can apply for a Paper Re-evaluation. An application must be submitted to the Controller of Examinations within 10 days of the declaration of results, along with a fee of $25 per course. The revised score can be higher, lower, or unchanged."
+  },
+  {
+    "id": "HB-SEC-3.2",
+    "title": "Make-up Examination Policy",
+    "page": 24,
+    "content": "Make-up examinations are only granted for mid-semester or end-semester exams missed due to severe illness (documented hospital admission) or extreme family emergencies. The student must file a petition with the Dean of Academic Affairs within 48 hours of the scheduled exam. Make-up exams are usually conducted one week after regular exams."
+  },
+  {
+    "id": "HB-SEC-4.1",
+    "title": "Course Registration & Add/Drop Period",
+    "page": 8,
+    "content": "Students must register for courses online at the start of each semester. The 'Add/Drop' period runs for the first 5 working days of the semester, during which students can swap courses without academic or financial penalty, subject to course capacity limits."
+  },
+  {
+    "id": "HB-SEC-4.2",
+    "title": "Course Withdrawal Rules",
+    "page": 9,
+    "content": "A student may withdraw from a course up to the 8th week of the semester. A grade of 'W' will be recorded on the transcript, which does not affect the CGPA. No refunds are provided for withdrawn courses, and the student must complete the course in a future term if it is a graduation requirement."
+  },
+  {
+    "id": "HB-SEC-5.1",
+    "title": "Hostel Curfew & Entry Hours",
+    "page": 35,
+    "content": "All campus hostels maintain a strict curfew. Residents must scan their ID cards at the hostel entry gate before 10:30 PM on weekdays and 11:30 PM on weekends. Late entries without prior written approval from the Warden will result in a warning letter. Three warnings will lead to hostel suspension and parental notification."
+  },
+  {
+    "id": "HB-SEC-5.2",
+    "title": "Hostel Guest Rules",
+    "page": 37,
+    "content": "Day scholars and outside guests are permitted in hostel common areas (mess hall, recreation room) between 09:00 AM and 08:30 PM. No guests of the opposite gender are allowed in hostel rooms at any time. Overnight guest stays require a 24-hour advance permit from the Chief Warden and carry a fee of $10 per night."
+  },
+  {
+    "id": "HB-SEC-6.1",
+    "title": "Library Fine & Borrowing Rules",
+    "page": 41,
+    "content": "Students can borrow up to 4 books simultaneously for a duration of 14 days. Overdue items incur a fine of $0.50 per day per book for the first 7 days, rising to $1.00 per day thereafter. Borrowing privileges are automatically suspended if outstanding library fines exceed $10.00."
+  },
+  {
+    "id": "HB-SEC-6.2",
+    "title": "Lost Library Book Liability",
+    "page": 42,
+    "content": "In the event of a lost library book, the borrower must report the loss immediately to avoid ongoing overdue fines. The student is liable to replace the book with a new copy of the same or newer edition, or pay 150% of the current market value of the book plus an administrative processing fee of $10.00."
+  },
+  {
+    "id": "HB-SEC-7.1",
+    "title": "Campus Code of Conduct & Anti-Ragging Policy",
+    "page": 3,
+    "content": "CampusPulse University maintains a zero-tolerance policy towards ragging, hazing, harassment, and bullying. Any student found engaging in, inciting, or participating in ragging will be immediately suspended from the institute and subject to criminal prosecution under state laws."
+  },
+  {
+    "id": "HB-SEC-7.2",
+    "title": "Academic Integrity & Plagiarism",
+    "page": 5,
+    "content": "All academic submissions, including projects, code repositories, essays, and laboratory reports, must be original. Plagiarism, cheating in exams, or sharing code for individual assignments constitutes academic misconduct. Penalties range from a zero on the assignment to course failure ('F' grade) or suspension."
+  },
+  {
+    "id": "HB-SEC-8.1",
+    "title": "Shuttle Transit Rules & Conduct",
+    "page": 48,
+    "content": "Students boarding the campus shuttle must present their valid student ID card to the driver. Priority seating must be given to students with disabilities and faculty. Disruptive behavior, playing loud audio, or eating on the shuttle is strictly prohibited and can result in bus privilege revocation."
+  },
+  {
+    "id": "HB-SEC-8.2",
+    "title": "Parking Regulations on Campus",
+    "page": 49,
+    "content": "Students who drive to campus must register their vehicle with the Campus Security Office to obtain a parking permit. Student parking is strictly restricted to Lot-D (near the sports complex) and Lot-F (near the hostels). Parking in faculty zones or blocking fire lanes will result in an immediate towing charge of $50.00."
+  }
+]
