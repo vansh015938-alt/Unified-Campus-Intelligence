@@ -16,8 +16,12 @@ except Exception as e:
     print(f"Failed to load menu.json: {e}")
     menu_data = {"days": {}, "specials": [], "timings": {}, "item_nutrition": {}}
 
-# Create FastMCP instance
-mcp = FastMCP("Cafeteria MCP Server")
+from mcp.server.transport_security import TransportSecuritySettings
+
+mcp = FastMCP(
+    "Cafeteria MCP Server",
+    transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=False)
+)
 
 @mcp.tool()
 def get_today_menu() -> dict:
