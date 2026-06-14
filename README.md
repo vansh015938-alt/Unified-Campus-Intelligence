@@ -1,10 +1,3 @@
-# CampusPulse — Unified Campus Intelligence Dashboard with AI Assistant
-
-> **One-Line Pitch**: A database-free, live-federated campus intelligence hub connecting student services (library, cafeteria, events, academics, transport) via Model Context Protocol (MCP) servers and orchestrating queries through a lightning-fast Groq-powered AI assistant.
-
-![Dashboard Demo Placeholder](https://via.placeholder.com/1200x600.png?text=CampusPulse+Dashboard+Mockup)
-
----
 
 ## 1. Problem Statement & Solution
 
