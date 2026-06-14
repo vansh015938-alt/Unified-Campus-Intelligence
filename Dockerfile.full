@@ -1,0 +1,32 @@
+FROM node:20-alpine
+
+# Install Python for the academics server
+RUN apk add --no-cache python3 py3-pip
+
+WORKDIR /app
+
+# ---- Academics server (Python/FastAPI) ----
+COPY mcp-servers/academics-server ./academics-server
+WORKDIR /app/academics-server
+RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
+
+# ---- Notices-Transport server (Node) ----
+WORKDIR /app
+COPY mcp-servers/notices-transport-server ./notices-transport-server
+WORKDIR /app/notices-transport-server
+RUN npm install && npm run build
+
+# ---- Orchestrator (Node) ----
+WORKDIR /app
+COPY orchestrator ./orchestrator
+WORKDIR /app/orchestrator
+RUN npm install && npm run build
+
+WORKDIR /app
+COPY start-all.sh ./start-all.sh
+RUN chmod +x start-all.sh
+
+ENV PORT=4000
+EXPOSE 4000
+
+CMD ["./start-all.sh"]
