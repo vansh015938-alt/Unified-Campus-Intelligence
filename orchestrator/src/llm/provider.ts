@@ -26,8 +26,8 @@ export function getGroqClient(userApiKey?: string) {
   });
 }
 
-export const DEFAULT_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct";
-export const FALLBACK_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct";
+export const DEFAULT_MODEL = "llama-3.3-70b-versatile";
+export const FALLBACK_MODEL = "llama-3.3-70b-versatile";
 
 
 
