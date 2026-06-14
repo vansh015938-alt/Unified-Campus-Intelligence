@@ -26,8 +26,8 @@ export function getGroqClient(userApiKey?: string) {
   });
 }
 
-export const DEFAULT_MODEL = "llama-3.3-70b-versatile";
-export const FALLBACK_MODEL = "llama-3.3-70b-versatile";
+export const DEFAULT_MODEL = "llama-3.1-8b-instant";
+export const FALLBACK_MODEL = "llama-3.1-8b-instant";
 
 
 
