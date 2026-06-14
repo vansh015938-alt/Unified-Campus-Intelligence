@@ -143,31 +143,18 @@ npm run dev
 ---
 
 ## 6. Deployed Links
-- **Production Dashboard**: *[Placeholder for Vercel/Railway Deployment]*
-- **Demo Walkthrough Video**: *[Placeholder for video]*
+- **Production Dashboard**: *https://unified-campus-intelligence-production.up.railway.app/*
+- **Demo Walkthrough Video**: *https://drive.google.com/drive/folders/1yhxrsBrFpkB25SZkRPXh4zA0RV7dEh0y?usp=sharing*
 
 ---
 
-## 7. Demo Student Accounts
 
-You can sign in to test personalization features using the credentials below:
-* **Student A**
-  - **Student ID**: `STU12345`
-  - **Password**: `student123`
-  - *Personalization*: Vegetarian dietary filter, Favorite club: CS Club. Shows borrowed books like "Clean Code".
-* **Student B**
-  - **Student ID**: `STU67890`
-  - **Password**: `student123`
-  - *Personalization*: Gluten-free dietary filter, Favorite club: Robotics Club.
-
----
-
-## 8. Exposed MCP Servers & Tools
+## 7. Exposed MCP Servers & Tools
 See [api-contracts.md](file:///C:/Users/vansh/OneDrive/Desktop/audoaudo/docs/api-contracts.md) for full descriptions of all tools exposed by our 5 servers.
 
 ---
 
-## 9. Known Limitations & Future Improvements
+## 8. Known Limitations & Future Improvements
 - **Mock Data**: Currently, servers load mock JSON records. These can be easily replaced with real REST/GraphQL connectors to library ILS or cafeteria vendor APIs without touching frontend or orchestrator code.
 - **Memory/Session**: Chat memory is stored in frontend session state; real deployments would integrate a database like Redis to persist chat sessions.
 - **MCP Client Transport**: The codebase uses `SSEServerTransport` and `SSEClientTransport`. Future iterations will explore the new "Streamable HTTP" specifications when they stabilize in the core SDKs.
