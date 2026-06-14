@@ -23,6 +23,11 @@ export async function runAgentLoop(
   studentProfile?: any,
   userApiKey?: string
 ) {
+  const maskedUserKey = userApiKey ? `${userApiKey.substring(0, 6)}... (length: ${userApiKey.length})` : "undefined/empty";
+  const envKey = process.env.GROQ_API_KEY;
+  const maskedEnvKey = envKey ? `${envKey.substring(0, 6)}... (length: ${envKey.length})` : "undefined/empty";
+  console.log(`[Agent Loop] userApiKey: ${maskedUserKey}, process.env.GROQ_API_KEY: ${maskedEnvKey}`);
+
   const groqClient = getGroqClient(userApiKey);
 
   // 1. Establish the system prompt, including graceful degradation warnings
